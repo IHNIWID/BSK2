@@ -1,5 +1,5 @@
 
-public class Zad1 {
+public class Zad4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -46,7 +46,7 @@ public class Zad1 {
 		// wpisanie reszty znakow z alfabetu do szyfrogramu
 		int counter = ciphers.length();
 
-		for (int i = 0; i < 26; i++) {
+		for (int i = 25; i >=0; i--) {
 			if (alphabetwithout[i] != 0) {
 				cryptogram[counter] = alphabetwithout[i];
 				counter++;
@@ -102,4 +102,5 @@ public class Zad1 {
 
 		return decoded;
 	}
+
 }
